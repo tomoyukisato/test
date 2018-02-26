@@ -12,6 +12,7 @@ class TestController extends AppController
       $this->viewBuilder()->layout('test');
     }
     public function index()
+
     {
       //変数teststrをセット
       $this->set('teststr', 'テスト文章てすてすてす！');
